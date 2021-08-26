@@ -1,0 +1,143 @@
+/* tabler & mobile */
+@media screen and (max-width: 1023px) {
+  .fa-bars{
+      display: flex;
+      float: left;
+  }
+  .nav-item{
+      display: none;
+  }
+}
+
+/* mobile */
+@media screen and (max-width:739px) {
+    .phone-number, .social-media{
+        display: none;
+    }
+    .search-bar{
+        width: 250px;
+    }
+    .carousel-caption{
+        display: block;
+       
+    }
+    .carousel img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .carousel{
+        opacity: 1;
+        visibility: visible;
+    }
+    .section-1 h3{
+        position: absolute;
+        top: 10px;
+        left: 0;
+    }
+
+    .section-1{
+        height: 400px;
+    }
+    .section-1 input,select{
+        width: 100%;
+        margin-top: 20px;
+
+    }
+    .search-button{
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        
+    }
+    .grid-section{
+        grid-template-columns: 1fr;
+    }
+    .section-3{
+        height: 300px;
+    }
+    .section-3-title{
+       position: absolute;
+       top: 10px;
+       left: 20px;
+       padding:0;
+       margin: 0;
+    }
+    .section-3-title h4{
+        font-size: 1.5em;
+    }
+    .form-area input{
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .subscribe-button{
+        width: 90%;
+        position: absolute;
+        top: 77%;
+        left: 47.5%;
+        transform: translate(-50%,-50%);
+    }
+}
+/* tablet */
+@media screen and (min-width:740px) and (max-width:1023px) {
+    .carousel{
+        height: 500px;
+    }
+    .carousel img{
+        height: 500px;
+        object-fit:cover;
+    }
+    .carousel-caption p{
+        font-size: 1em;
+    }
+    
+    .carousel-item h3{
+        font-size: 5em;
+        
+    }
+    .btn-explore{
+        padding:10px 20px;
+    }
+   .section-1 input ,select{
+       width: 150px;
+       margin-right: 40px;
+   }
+   .search-button{
+       margin-left: 30px;
+   }
+   .section-1{
+       height: 200px;
+   }
+   .section-1 h3{
+       font-size: 1.5em;
+       left: 30px;
+       position: absolute;
+     
+   }
+
+   .select-travel{
+       float: left;
+       position: relative;
+       top: 50px;
+       left: 30px;
+   }
+   .grid-section{
+       grid-template-columns: repeat(2,330px);
+       grid-column-gap: 20px;
+       padding-left: 5%;
+       
+   }
+   .section-3-title{
+       position: absolute;
+       top: 20px;
+       left: 0;
+   }
+   .form-area{
+       display: flex;
+       position: absolute;
+       bottom: 30px;
+       left: 0;
+   }
+}
